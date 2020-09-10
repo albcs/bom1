@@ -96,10 +96,6 @@ function checkSavings() {
 }
 checkSavings();
 
-optionalExpenses: {
-
-}
-
 function chooseOptExpenses() {
     for (let i = 0; i < 3; i++) {
         let questionOptionalExpenses = +prompt('Статья необязательных расходов?');
